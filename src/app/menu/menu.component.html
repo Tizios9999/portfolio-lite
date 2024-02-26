@@ -1,0 +1,53 @@
+<!-- Top bar menu - will be shown on smaller devices -->
+<nav
+  class="nav-top"
+  [ngClass]="{
+    shadowed: pageStateService.temporaryMenu
+  }"
+>
+  <div
+    (click)="pageStateService.setTemporaryMenu(true)"
+    class="hamburger-button"
+  >
+    &#9776;
+  </div>
+  <div class="top-title">
+    <h3 class="my-name">Davide Santonocito</h3>
+    <p class="my-title">Full Stack Developer</p>
+  </div>
+</nav>
+
+<!-- Side bar menu - will be shown on larger devices or temporarily to select a section in smaller ones -->
+<aside
+  class="side-nav d-none d-md-block"
+  [ngClass]="{
+    'd-none': !pageStateService.temporaryMenu,
+    'temporary-menu': pageStateService.temporaryMenu
+  }"
+>
+  <h1 class="my-name">Davide Santonocito</h1>
+  <p class="my-title">Full Stack Developer</p>
+  <hr />
+  <ul id="side-nav-list">
+    <app-side-nav-item
+      label="Chi sono"
+      link="#chi-sono"
+      icon="fa-solid fa-user"
+    ></app-side-nav-item>
+    <app-side-nav-item
+      label="Portfolio"
+      link="#portfolio"
+      icon="fa-solid fa-laptop-code"
+    ></app-side-nav-item>
+    <app-side-nav-item
+      label="Skills"
+      link="#skills"
+      icon="fa-solid fa-trophy"
+    ></app-side-nav-item>
+    <app-side-nav-item
+      label="Contatti"
+      link="#contatti"
+      icon="fa-solid fa-envelope"
+    ></app-side-nav-item>
+  </ul>
+</aside>
