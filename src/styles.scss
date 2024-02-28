@@ -160,13 +160,14 @@ body {
 
         .skills-section {
             padding: 50px;
-            .skills-container {
+            .app-skills-list {
                 padding: 15px;
                 justify-content: center;
                 flex-flow: wrap;
                 gap: 30px;
                 margin-bottom: 50px;
-                .skill-icon {
+                .skill-container {
+                  .skill-icon {
                     .icon-window {
                         height: 60px;
                         width: 60px;
@@ -203,6 +204,8 @@ body {
                             }
                         }
                 }
+                }
+
                 .skill-icon:hover {
                     // hover action will be triggered only on desktop:
                     .icon-window{

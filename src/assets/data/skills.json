@@ -1,0 +1,86 @@
+[
+  {
+    "name": "HTML5",
+    "iconLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    "alt": "HTML5",
+    "specialized": "true"
+  },
+  {
+    "name": "CSS3",
+    "iconLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    "alt": "CSS3",
+    "specialized": "true"
+  },
+  {
+    "name": "SASS",
+    "iconLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+    "alt": "SASS",
+    "specialized": "true"
+  },
+  {
+    "name": "Bootstrap",
+    "iconLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+    "alt": "Bootstrap",
+    "specialized": "true"
+  },
+  {
+    "name": "JavaScript",
+    "iconLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    "alt": "JavaScript",
+    "specialized": "true"
+  },
+  {
+    "name": "React",
+    "iconLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    "alt": "ReactJS",
+    "specialized": "true"
+  },
+  {
+    "name": "Storyblok",
+    "iconLink": "../assets/img/sb-hologram.svg",
+    "alt": "Storyblok",
+    "specialized": "true"
+  },
+  {
+    "name": "MySQL",
+    "iconLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+    "alt": "MySQL",
+    "specialized": "true"
+  },
+  {
+    "name": "GitHub",
+    "iconLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+    "alt": "GitHub",
+    "specialized": "true"
+  },
+  {
+    "name": "Jira",
+    "iconLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg",
+    "alt": "Jira",
+    "specialized": "true"
+  },
+  {
+    "name": "Slack",
+    "iconLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg",
+    "alt": "Slack",
+    "specialized": "true"
+  },
+  {
+    "name": "Vue",
+    "iconLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+    "alt": "Vue",
+    "specialized": "false"
+  },
+  {
+    "name": "Laravel",
+    "iconLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg",
+    "alt": "Laravel",
+    "specialized": "false"
+  },
+  {
+    "name": "Java",
+    "iconLink": "../assets/img/java-icon.svg",
+    "alt": "Java",
+    "specialized": "true"
+  }
+]

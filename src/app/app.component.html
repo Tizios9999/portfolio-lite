@@ -170,8 +170,12 @@
       <div class="section-bar" id="skills"><h2>SKILLS</h2></div>
       <section class="skills-section tech-bg">
         <h3 class="skills-main-text">Sono specializzato in:</h3>
-        <div class="skills-container d-flex">
-          <div class="skill-icon">
+        <div class="skills-container">
+          <app-skills-list
+            [specialized]="'true'"
+            class="app-skills-list d-flex"
+          ></app-skills-list>
+          <!-- <div class="skill-icon">
             <div class="icon-window">
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
@@ -259,13 +263,13 @@
               />
             </div>
             <div class="skill-tip">Slack</div>
-          </div>
+          </div> -->
         </div>
 
         <h3 class="skills-main-text">Ma ho familiarità anche con:</h3>
 
         <div class="skills-container d-flex">
-          <div class="skill-icon">
+          <!-- <div class="skill-icon">
             <div class="icon-window">
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
@@ -330,7 +334,11 @@
               />
             </div>
             <div class="skill-tip">Bitbucket</div>
-          </div>
+          </div> -->
+          <app-skills-list
+            [specialized]="'false'"
+            class="app-skills-list d-flex"
+          ></app-skills-list>
         </div>
       </section>
 

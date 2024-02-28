@@ -1,0 +1,8 @@
+<div class="skill-container" *ngFor="let skill of skills">
+  <div *ngIf="skill.specialized == this.specialized" class="skill-icon">
+    <div class="icon-window">
+      <img [src]="skill.iconLink" [alt]="skill.alt" />
+    </div>
+    <div class="skill-tip">{{ skill.name }}</div>
+  </div>
+</div>
