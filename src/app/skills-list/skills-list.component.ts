@@ -14,13 +14,26 @@ import { SkillData } from '../skillData';
 export class SkillsListComponent implements OnInit {
   @Input() specialized: string = "true"; // Imposta il valore predefinito su true
   skills: SkillData[] = [];
+  specializedSkills: SkillData[] = [];
+  notSpecializedSkills: SkillData[] = [];
 
   constructor(private portfolioDataService: PortfolioDataService) {}
 
   ngOnInit() {
     this.portfolioDataService.getSkills().subscribe(data => {
       this.skills = data;
+      this.specializedSkills = [];
+      this.notSpecializedSkills = [];
+      this.skills.forEach(skill => {
+        if(skill.specialized == 'true') {
+          this.specializedSkills.push(skill);
+        } else {
+          this.notSpecializedSkills.push(skill);
+        }
+      })
       console.log('Dati caricati:', this.skills); // Assegna i dati recuperati dal servizio alla variabile projects
     });
   }
+
+
   }
