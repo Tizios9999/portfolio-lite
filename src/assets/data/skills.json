@@ -36,6 +36,12 @@
     "specialized": "true"
   },
   {
+    "name": "Next.js",
+    "iconLink": "../assets/img/nextjs-icon.svg",
+    "alt": "Nextjs",
+    "specialized": "true"
+  },
+  {
     "name": "Storyblok",
     "iconLink": "../assets/img/sb-hologram.svg",
     "alt": "Storyblok",
@@ -45,6 +51,12 @@
     "name": "MySQL",
     "iconLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
     "alt": "MySQL",
+    "specialized": "true"
+  },
+  {
+    "name": "Git",
+    "iconLink": "../assets/img/git.svg",
+    "alt": "Git",
     "specialized": "true"
   },
   {
@@ -66,14 +78,26 @@
     "specialized": "true"
   },
   {
+    "name": "Angular",
+    "iconLink": "../assets/img/angular-icon.svg",
+    "alt": "Angular",
+    "specialized": "false"
+  },
+  {
     "name": "Vue",
     "iconLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
     "alt": "Vue",
     "specialized": "false"
   },
   {
+    "name": "Php",
+    "iconLink": "../assets/img/php-icon.svg",
+    "alt": "Php",
+    "specialized": "false"
+  },
+  {
     "name": "Laravel",
-    "iconLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg",
+    "iconLink": "../assets/img/laravel-icon.svg",
     "alt": "Laravel",
     "specialized": "false"
   },
@@ -82,5 +106,42 @@
     "iconLink": "../assets/img/java-icon.svg",
     "alt": "Java",
     "specialized": "true"
+  },
+  {
+    "name": "Maven",
+    "iconLink": "../assets/img/maven-icon.svg",
+    "alt": "Maven",
+    "specialized": "true"
+  },
+  {
+    "name": "Spring",
+    "iconLink": "../assets/img/spring-icon.svg",
+    "alt": "Spring",
+    "specialized": "true"
+  },
+  {
+    "name": "Python",
+    "iconLink": "../assets/img/python-icon.svg",
+    "alt": "Python",
+    "specialized": "false"
+  },
+  {
+    "name": "Flask",
+    "iconLink": "../assets/img/flask-icon.svg",
+    "alt": "Flask",
+    "specialized": "false"
+  },
+  {
+    "name": "Google Firebase",
+    "iconLink": "../assets/img/firebase-icon.svg",
+    "alt": "Firebase",
+    "specialized": "false"
+  },
+  {
+    "name": "Docker",
+    "iconLink": "../assets/img/docker-icon.svg",
+    "alt": "Docker",
+    "specialized": "true"
   }
+
 ]
