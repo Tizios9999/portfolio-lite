@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Glitch Reporter",
+    "image": "",
+    "description": "Un software completo di bug tracking. Ha moltissime features fra cui: gestione utenti, messaggistica, allegati e tanto altro.",
+    "technologies": [ "HTML", "CSS", "JavaScript", "ReactJS", "NextJS", "Material UI", "Java", "Spring", "Maven", "Google Cloud", "Docker"],
+    "links": {
+      "youtube": "",
+      "live": "https://glitch-reporter-frontend.vercel.app/",
+      "blog": "",
+      "github": "https://github.com/Tizios9999/glitch-reporter-frontend"
+    }
+  },
+  {
+    "name": "Sito personale",
+    "image": "",
+    "description": "Il mio sito e blog personale. Prodotto con Storyblok (un headless CMS) e NextJS",
+    "technologies": [ "HTML", "SCSS", "JavaScript", "ReactJS", "NextJS", "StoryBlok"],
+    "links": {
+      "youtube": "",
+      "live": "https://www.davidesantonocito.com",
+      "blog": "",
+      "github": ""
+    }
+  },
+  {
+    "name": "Sito Portfolio (questo sito)",
+    "image": "",
+    "description": "Prodotto prima in HTML e CSS, adesso ricreato in Angular.",
+    "technologies": [ "HTML", "SCSS", "Bootstrap", "Angular", "TypeScript"],
+    "links": {
+      "youtube": "",
+      "live": "",
+      "blog": "",
+      "github": ""
+    }
+  },
+  {
+    "name": "Virtual Office",
+    "image": "",
+    "description": "Creato durante un hackaton, questo software offre un ufficio virtuale per incontrare e lavorare assieme ai colleghi in smart working",
+    "technologies": [ "HTML", "Tailwind", "JavaScript", "ReactJS", "NextJS", "Firebase"],
+    "links": {
+      "youtube": "https://www.youtube.com/watch?v=lAE9qZKjxkE",
+      "live": "https://v-office-aurora268.vercel.app/",
+      "blog": "https://www.davidesantonocito.com/blog/my-first-hackathon",
+      "github": ""
+    }
+  },
+  {
+    "name": "App per meditazione",
+    "image": "",
+    "description": "App per meditazione. Ha diverse esperienze rilassanti, un timer e una campanella che segnala la fine della meditazione.",
+    "technologies": [ "HTML", "CSS", "JavaScript", "ReactJS"],
+    "links": {
+      "youtube": "",
+      "live": "https://cosmic-cascaron-e58dcb.netlify.app/",
+      "blog": "",
+      "github": "https://github.com/Tizios9999/meditation-app/"
+    }
+  },
+  {
+    "name": "IncuDO, prenotazione corsi",
+    "image": "",
+    "description": "App per prenotazione corsi, tutta creata in Java.",
+    "technologies": [ "Java", "Maven"],
+    "links": {
+      "youtube": "",
+      "live": "",
+      "blog": "https://www.davidesantonocito.com/blog/incudo",
+      "github": "https://github.com/Tizios9999/incuDO"
+    }
+  },
+  {
+    "name": "Urban Area Info",
+    "image": "",
+    "description": "App per confrontare la vivibilità di varie città del mondo. Attualmente offline perché l'API di Teleport.org è stata rimossa.",
+    "technologies": [ "HTML", "CSS", "JavaScript"],
+    "links": {
+      "youtube": "",
+      "live": "",
+      "blog": "",
+      "github": "https://github.com/Tizios9999/City-Info/"
+    }
+  }
+]
