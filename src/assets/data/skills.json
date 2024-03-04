@@ -1,49 +1,49 @@
 [
   {
     "name": "HTML5",
-    "iconLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    "iconLink": "../assets/img/skills/html5-icon.svg",
     "alt": "HTML5",
     "specialized": "true"
   },
   {
     "name": "CSS3",
-    "iconLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    "iconLink": "../assets/img/skills/css3-icon.svg",
     "alt": "CSS3",
     "specialized": "true"
   },
   {
     "name": "SASS",
-    "iconLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+    "iconLink": "../assets/img/skills/sass-icon.svg",
     "alt": "SASS",
     "specialized": "true"
   },
   {
     "name": "Bootstrap",
-    "iconLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+    "iconLink": "../assets/img/skills/bootstrap-icon.svg",
     "alt": "Bootstrap",
     "specialized": "true"
   },
   {
     "name": "JavaScript",
-    "iconLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    "iconLink": "../assets/img/skills/javascript-icon.svg",
     "alt": "JavaScript",
     "specialized": "true"
   },
   {
     "name": "React",
-    "iconLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    "iconLink": "../assets/img/skills/react-icon.svg",
     "alt": "ReactJS",
     "specialized": "true"
   },
   {
     "name": "Next.js",
-    "iconLink": "../assets/img/nextjs-icon.svg",
+    "iconLink": "../assets/img/skills/nextjs-icon.svg",
     "alt": "Nextjs",
     "specialized": "true"
   },
   {
     "name": "Storyblok",
-    "iconLink": "../assets/img/sb-hologram.svg",
+    "iconLink": "../assets/img/skills/sb-hologram.svg",
     "alt": "Storyblok",
     "specialized": "true"
   },
@@ -55,7 +55,7 @@
   },
   {
     "name": "Git",
-    "iconLink": "../assets/img/git.svg",
+    "iconLink": "../assets/img/skills/git.svg",
     "alt": "Git",
     "specialized": "true"
   },
@@ -79,7 +79,7 @@
   },
   {
     "name": "Angular",
-    "iconLink": "../assets/img/angular-icon.svg",
+    "iconLink": "../assets/img/skills/angular-icon.svg",
     "alt": "Angular",
     "specialized": "false"
   },
@@ -91,55 +91,55 @@
   },
   {
     "name": "Php",
-    "iconLink": "../assets/img/php-icon.svg",
+    "iconLink": "../assets/img/skills/php-icon.svg",
     "alt": "Php",
     "specialized": "false"
   },
   {
     "name": "Laravel",
-    "iconLink": "../assets/img/laravel-icon.svg",
+    "iconLink": "../assets/img/skills/laravel-icon.svg",
     "alt": "Laravel",
     "specialized": "false"
   },
   {
     "name": "Java",
-    "iconLink": "../assets/img/java-icon.svg",
+    "iconLink": "../assets/img/skills/java-icon.svg",
     "alt": "Java",
     "specialized": "true"
   },
   {
     "name": "Maven",
-    "iconLink": "../assets/img/maven-icon.svg",
+    "iconLink": "../assets/img/skills/maven-icon.svg",
     "alt": "Maven",
     "specialized": "true"
   },
   {
     "name": "Spring",
-    "iconLink": "../assets/img/spring-icon.svg",
+    "iconLink": "../assets/img/skills/spring-icon.svg",
     "alt": "Spring",
     "specialized": "true"
   },
   {
     "name": "Python",
-    "iconLink": "../assets/img/python-icon.svg",
+    "iconLink": "../assets/img/skills/python-icon.svg",
     "alt": "Python",
     "specialized": "false"
   },
   {
     "name": "Flask",
-    "iconLink": "../assets/img/flask-icon.svg",
+    "iconLink": "../assets/img/skills/flask-icon.svg",
     "alt": "Flask",
     "specialized": "false"
   },
   {
     "name": "Google Firebase",
-    "iconLink": "../assets/img/firebase-icon.svg",
+    "iconLink": "../assets/img/skills/firebase-icon.svg",
     "alt": "Firebase",
     "specialized": "false"
   },
   {
     "name": "Docker",
-    "iconLink": "../assets/img/docker-icon.svg",
+    "iconLink": "../assets/img/skills/docker-icon.svg",
     "alt": "Docker",
     "specialized": "true"
   }
