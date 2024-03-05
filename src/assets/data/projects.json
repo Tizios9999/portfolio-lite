@@ -1,7 +1,9 @@
 [
   {
+    "id": 0,
     "name": "Glitch Reporter",
-    "image": "",
+    "imageLink": "",
+    "alt": "Glitch Reporter",
     "description": "Un software completo di bug tracking. Ha moltissime features fra cui: gestione utenti, messaggistica, allegati e tanto altro.",
     "technologies": [ "HTML", "CSS", "JavaScript", "ReactJS", "NextJS", "Material UI", "Java", "Spring", "Maven", "Google Cloud", "Docker"],
     "links": {
@@ -13,7 +15,8 @@
   },
   {
     "name": "Sito personale",
-    "image": "",
+    "imageLink": "",
+    "alt": "Sito personale",
     "description": "Il mio sito e blog personale. Prodotto con Storyblok (un headless CMS) e NextJS",
     "technologies": [ "HTML", "SCSS", "JavaScript", "ReactJS", "NextJS", "StoryBlok"],
     "links": {
@@ -25,7 +28,8 @@
   },
   {
     "name": "Sito Portfolio (questo sito)",
-    "image": "",
+    "imageLink": "",
+    "alt": "Screenshot di questo sito",
     "description": "Prodotto prima in HTML e CSS, adesso ricreato in Angular.",
     "technologies": [ "HTML", "SCSS", "Bootstrap", "Angular", "TypeScript"],
     "links": {
@@ -37,7 +41,8 @@
   },
   {
     "name": "Virtual Office",
-    "image": "",
+    "imageLink": "",
+    "alt": "Virtual Office",
     "description": "Creato durante un hackaton, questo software offre un ufficio virtuale per incontrare e lavorare assieme ai colleghi in smart working",
     "technologies": [ "HTML", "Tailwind", "JavaScript", "ReactJS", "NextJS", "Firebase"],
     "links": {
@@ -49,7 +54,8 @@
   },
   {
     "name": "App per meditazione",
-    "image": "",
+    "imageLink": "",
+    "alt": "App per meditazione",
     "description": "App per meditazione. Ha diverse esperienze rilassanti, un timer e una campanella che segnala la fine della meditazione.",
     "technologies": [ "HTML", "CSS", "JavaScript", "ReactJS"],
     "links": {
@@ -61,7 +67,8 @@
   },
   {
     "name": "IncuDO, prenotazione corsi",
-    "image": "",
+    "imageLink": "",
+    "alt": "IncuDO",
     "description": "App per prenotazione corsi, tutta creata in Java.",
     "technologies": [ "Java", "Maven"],
     "links": {
@@ -73,7 +80,8 @@
   },
   {
     "name": "Urban Area Info",
-    "image": "",
+    "imageLink": "",
+    "alt": "Urban Area Info",
     "description": "App per confrontare la vivibilità di varie città del mondo. Attualmente offline perché l'API di Teleport.org è stata rimossa.",
     "technologies": [ "HTML", "CSS", "JavaScript"],
     "links": {

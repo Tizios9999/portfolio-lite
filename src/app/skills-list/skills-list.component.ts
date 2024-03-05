@@ -31,7 +31,7 @@ export class SkillsListComponent implements OnInit {
           this.notSpecializedSkills.push(skill);
         }
       })
-      console.log('Dati caricati:', this.skills); // Assegna i dati recuperati dal servizio alla variabile projects
+      console.log('Dati caricati:', this.skills);
     });
   }
 
