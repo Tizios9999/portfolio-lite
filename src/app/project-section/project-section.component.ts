@@ -1,3 +1,4 @@
+import { PageStateService } from './../page-state.service';
 import { Component, OnInit } from '@angular/core';
 import { PortfolioDataService } from '../portfolio-data.service';
 import { HttpClientModule } from '@angular/common/http';
@@ -8,14 +9,14 @@ import { ProjectData } from '../projectData';
 @Component({
   selector: 'app-project-section',
   standalone: true,
-  imports: [ HttpClientModule, CommonModule ],
+  imports: [ HttpClientModule, CommonModule, ProjectPreviewComponent ],
   templateUrl: './project-section.component.html',
   styleUrl: './project-section.component.scss'
 })
 export class ProjectSectionComponent implements OnInit {
   projects: ProjectData[] = [];
 
-  constructor(private portfolioDataService: PortfolioDataService) {}
+  constructor(private portfolioDataService: PortfolioDataService, public pageStateService: PageStateService) {}
 
   ngOnInit() {
     this.portfolioDataService.getProjects().subscribe(data => {

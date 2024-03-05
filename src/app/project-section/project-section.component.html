@@ -1,1 +1,10 @@
-<p>project-section works!</p>
+<section
+  class="cards-container tech-bg"
+  [ngClass]="{
+    shadowed: pageStateService.temporaryMenu
+  }"
+>
+  <div *ngFor="let project of this.projects">
+    <app-project-preview [project]="project"></app-project-preview>
+  </div>
+</section>

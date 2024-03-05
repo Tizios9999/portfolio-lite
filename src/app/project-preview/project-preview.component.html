@@ -1,15 +1,11 @@
 <div class="card">
   <div class="card-img">
-    <img
-      src="../../assets/img/projects/davidesantonocitoblog.png"
-      alt="Placeholder Image"
-    />
+    <img [src]="project.imageLink" [alt]="project.alt" />
   </div>
   <div class="card-content">
-    <div class="card-title">Titolo della Card</div>
+    <div class="card-title">{{ project.name }}</div>
     <div class="card-description">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus placerat
-      mi ut tellus condimentum imperdiet.
+      {{ project.description }}
     </div>
   </div>
 </div>
