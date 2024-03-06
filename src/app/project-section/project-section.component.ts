@@ -15,14 +15,23 @@ import { ProjectData } from '../projectData';
 })
 export class ProjectSectionComponent implements OnInit {
   projects: ProjectData[] = [];
+  selectedProject: ProjectData | null = null;
 
   constructor(private portfolioDataService: PortfolioDataService, public pageStateService: PageStateService) {}
+
+  openModal(project: ProjectData) {
+    this.selectedProject = project;
+    console.log(this.selectedProject);
+  }
+
+  closeModal() {
+    this.selectedProject = null;
+  }
 
   ngOnInit() {
     this.portfolioDataService.getProjects().subscribe(data => {
       this.projects = data;
       console.log('Progetti:', this.projects);
     })
-
   }
 }

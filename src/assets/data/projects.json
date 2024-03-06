@@ -14,6 +14,7 @@
     }
   },
   {
+    "id": 1,
     "name": "Sito personale",
     "imageLink": "assets/img/projects/davidesantonocitoblog.png",
     "alt": "Sito personale",
@@ -27,6 +28,7 @@
     }
   },
   {
+    "id": 2,
     "name": "Sito Portfolio (questo sito)",
     "imageLink": "assets/img/projects/project-site.png",
     "alt": "Screenshot di questo sito",
@@ -40,6 +42,7 @@
     }
   },
   {
+    "id": 3,
     "name": "Virtual Office",
     "imageLink": "assets/img/projects/v-office.png",
     "alt": "Virtual Office",
@@ -53,6 +56,7 @@
     }
   },
   {
+    "id": 4,
     "name": "App per meditazione",
     "imageLink": "assets/img/projects/meditation-app.png",
     "alt": "App per meditazione",
@@ -66,6 +70,7 @@
     }
   },
   {
+    "id": 5,
     "name": "IncuDO, prenotazione corsi",
     "imageLink": "assets/img/projects/incuDO.png",
     "alt": "IncuDO",
@@ -79,6 +84,7 @@
     }
   },
   {
+    "id": 6,
     "name": "Urban Area Info",
     "imageLink": "assets/img/projects/city-info-bars.png",
     "alt": "Urban Area Info",

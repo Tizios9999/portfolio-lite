@@ -5,6 +5,46 @@
   }"
 >
   <div *ngFor="let project of this.projects">
-    <app-project-preview [project]="project"></app-project-preview>
+    <app-project-preview
+      [project]="project"
+      (click)="openModal(project)"
+    ></app-project-preview>
+  </div>
+
+  <div class="modal" *ngIf="selectedProject">
+    <!-- Contenuto della finestra modale -->
+    <div class="modal-content">
+      <span class="close" (click)="closeModal()">&times;</span>
+      <h2>{{ selectedProject.name }}</h2>
+      <img [src]="selectedProject.imageLink" [alt]="selectedProject.alt" />
+      <p>{{ selectedProject.description }}</p>
+      <h5>Tecnologie utilizzate</h5>
+      <span *ngFor="let technology of selectedProject.technologies">{{
+        technology
+      }}</span>
+      <h5>Links relativi al progetto</h5>
+      <ul>
+        <li *ngIf="selectedProject.links.youtube">
+          <a [href]="selectedProject.links.youtube" target="_blank"
+            >Video Youtube</a
+          >
+        </li>
+        <li *ngIf="selectedProject.links.github">
+          <a [href]="selectedProject.links.github" target="_blank"
+            >Codice su Github</a
+          >
+        </li>
+        <li *ngIf="selectedProject.links.blog">
+          <a [href]="selectedProject.links.blog" target="_blank"
+            >Articolo sul mio blog</a
+          >
+        </li>
+        <li *ngIf="selectedProject.links.live">
+          <a [href]="selectedProject.links.live" target="_blank"
+            >Link al progetto online</a
+          >
+        </li>
+      </ul>
+    </div>
   </div>
 </section>
