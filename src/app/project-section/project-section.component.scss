@@ -36,7 +36,29 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    li {
+      padding: 15px;
+      a {
+        text-decoration: none;
+        background-color: navy;
+        color: whitesmoke;
+        padding: 15px;
+        border-radius: 8px;
+
+      }
+    }
   }
+}
+
+.project-name {
+  font-weight: bolder;
+}
+
+.project-description {
+  margin: 10px;
+  padding: 10px;
+  background-color: lightblue;
+  border-radius: 8px;
 }
 
 .technologies-container {

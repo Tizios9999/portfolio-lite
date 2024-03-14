@@ -15,9 +15,9 @@
     <!-- Contenuto della finestra modale -->
     <div class="modal-content">
       <span class="close" (click)="closeModal()">&times;</span>
-      <h2>{{ selectedProject.name }}</h2>
+      <h2 class="project-name">{{ selectedProject.name }}</h2>
       <img [src]="selectedProject.imageLink" [alt]="selectedProject.alt" />
-      <p>{{ selectedProject.description }}</p>
+      <div class="project-description">{{ selectedProject.description }}</div>
       <h5>Tecnologie utilizzate</h5>
       <section class="technologies-container">
         <div *ngFor="let technology of selectedProject.technologies">

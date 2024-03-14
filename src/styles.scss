@@ -366,7 +366,7 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 3; /* Imposta il numero massimo di linee */
+  -webkit-line-clamp: 5; /* Imposta il numero massimo di linee */
   -webkit-box-orient: vertical;
 }
 
