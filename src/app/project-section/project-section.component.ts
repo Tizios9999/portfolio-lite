@@ -4,12 +4,13 @@ import { PortfolioDataService } from '../portfolio-data.service';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { ProjectPreviewComponent } from '../project-preview/project-preview.component';
+import { TechnologyLabelComponent } from '../technology-label/technology-label.component';
 import { ProjectData } from '../projectData';
 
 @Component({
   selector: 'app-project-section',
   standalone: true,
-  imports: [ HttpClientModule, CommonModule, ProjectPreviewComponent ],
+  imports: [ HttpClientModule, CommonModule, ProjectPreviewComponent, TechnologyLabelComponent ],
   templateUrl: './project-section.component.html',
   styleUrl: './project-section.component.scss'
 })

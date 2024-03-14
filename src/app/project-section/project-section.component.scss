@@ -39,6 +39,15 @@
   }
 }
 
+.technologies-container {
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 35px;
+
+}
+
 .close {
   color: #aaa;
   float: right;

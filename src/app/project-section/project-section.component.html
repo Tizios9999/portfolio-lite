@@ -19,9 +19,13 @@
       <img [src]="selectedProject.imageLink" [alt]="selectedProject.alt" />
       <p>{{ selectedProject.description }}</p>
       <h5>Tecnologie utilizzate</h5>
-      <span *ngFor="let technology of selectedProject.technologies">{{
-        technology
-      }}</span>
+      <section class="technologies-container">
+        <div *ngFor="let technology of selectedProject.technologies">
+          <app-technology-label
+            [technology]="technology"
+          ></app-technology-label>
+        </div>
+      </section>
       <h5>Links relativi al progetto</h5>
       <ul>
         <li *ngIf="selectedProject.links.youtube">
