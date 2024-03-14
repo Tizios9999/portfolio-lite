@@ -41,7 +41,8 @@
 
 .technologies-container {
   display: flex;
-  gap: 7px;
+  flex-wrap: wrap;
+  gap: 20px 8px;
   justify-content: center;
   padding-top: 25px;
   padding-bottom: 35px;
